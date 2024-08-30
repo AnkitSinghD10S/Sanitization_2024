@@ -13,57 +13,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.flag {
-  width: 200px;
-  height: 140px;
-  margin: 0 auto;
-}
-
-.saffron {
-  background-color: #FF9933;
-  height: 40px;
-}
-
-.white {
-  background-color: #FFFFFF;
-  height: 40px;
-}
-
-.green {
-  background-color: #128807;
-  height: 40px;
-} 
-
-.wheel {
-  width: 35px;
-  height: 35px;
-  border: 2px solid #000080;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.flagwave {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to bottom, #FF9933, #FFFFFF, #128807);
-  background-size: 100% 100%;
-  animation: wave 2s infinite;
-}
-
-@keyframes wave {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
 
 .navbar {
   display: flex;
@@ -126,13 +75,13 @@ section {
   margin: auto;
   height: auto;
   margin-top: 40px;
-
+  margin-bottom: 40px;
 }
 
 .intro-services{
   opacity: 0;
   transform: translatex(100px);
-  transition: opacity 3s ease-out, transform 2s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
   position: relative;
 }
 
@@ -150,7 +99,7 @@ section {
 .importance-sanitation{
   opacity: 0;
   transform: translatey(100px);
-  transition: opacity 3s ease-out, transform 2s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
   position: relative;
 }
 
@@ -162,7 +111,7 @@ section {
 .sanitation-tips{
   opacity: 0;
   transform: translatez(100px);
-  transition: opacity 3s ease-out, transform 2s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
   position: relative;
 }
 
@@ -226,6 +175,7 @@ h2 {
 
 h1 {
   font-size: 2rem;
+  margin: 20px 3px;
 }
 
 
@@ -275,7 +225,7 @@ p {
 .waste-separation {
   opacity: 0;
   transform: translatex(100px);
-  transition: opacity 3s ease-out, transform 3s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
   position: relative;
 }
 
@@ -300,8 +250,8 @@ p {
   height: auto;
   width: 800px;
   margin: auto;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 2px;
+  padding-bottom: 5px;
   box-shadow: 4px 2px 15px #02020280;
   border-radius: 40px;
   padding-left: 30px;
@@ -309,15 +259,16 @@ p {
   background-color: #fff;
 }
 
+
 .recycling-for-kids img {
-  width: 250px;
+  width: 150px;
   border-radius: 400px;
 }
 
 .recycling-for-kids {
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 3s ease-out, transform 2s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
   position: relative;
 }
 
@@ -329,13 +280,12 @@ p {
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
 }
 
 .button {
   background-color: #008cba;
   color: white;
-  padding: 15px 30px;
+  padding: 10px 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -351,7 +301,7 @@ p {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  margin-bottom: 30px;
+  margin-bottom: 19px;
 }
 
 .button-container h3 {
@@ -368,8 +318,11 @@ p {
 .boot {
   opacity: 0;
   transform: translatex(100px);
-  transition: opacity 1s ease-out, transform 2s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
   position: relative;
+  margin:auto;
+
+  margin-top: 40px ;
   margin-bottom: 40px ;
 }
 
